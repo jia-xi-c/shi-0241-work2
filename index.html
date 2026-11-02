@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>打击乐社招新主页</title>
+    <style>
+        body{
+            background-color: #111;
+            color: white;
+            text-align: center;
+        }
+        img{
+            width: 500px;
+        }
+        a{
+            color:#ffdd55;
+            font-size:22px;
+        }
+        table{
+            margin:0 auto;
+            border:1px solid white;
+        }
+        td,th{
+            border:1px solid white;
+            padding:8px;
+        }
+    </style>
+</head>
+<body>
+    <!--1.标题 h1-->
+    <h1>欢迎来到打击乐社</h1>
+
+    <!--2.图片 img-->
+    <img src="daji.png" alt="打击乐社团图片">
+
+    <p>感受鼓点的力量，一起玩打击乐！</p>
+
+    <!--3.超链接a：跳转到第二个页面-->
+    <p><a href="about.html">点这里查看社团介绍</a></p>
+
+    <!--4.音频audio 背景音乐-->
+    <audio controls loop>
+        <source src="bgm.mp3" type="audio/mpeg">
+    
+
+    <!--5.无序列表 ul-->
+    <h3>我们的乐器：</h3>
+    <ul style="display:inline-block;text-align:left;">
+        <li>架子鼓</li>
+        <li>非洲鼓</li>
+        <li>卡洪鼓</li>
+    </ul>
+
+    <!--6.表格 table-->
+    <h3>排练时间表</h3>
+    <table>
+        <tr>
+            <th>时间</th>
+            <th>地点</th>
+        </tr>
+        <tr>
+            <td>每周三晚上</td>
+            <td>大学生活动中心202</td>
+        </tr>
+        <tr>
+            <td>每周六下午</td>
+            <td>音乐教室</td>
+        </tr>
+    </table>
+
+    <!--7.表单 form（报名输入框，第7个功能！）-->
+    <h3>招新报名</h3>
+    <form>
+        姓名：<input type="text"> <br><br>
+        手机号：<input type="tel"> <br><br>
+        <input type="submit" value="提交报名">
+    </form>
+
+</body>
+</html>
+
